@@ -1,0 +1,16 @@
+#wrapper{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:10px;
+    height:400px;
+    width:300px
+}
+
+#wrapper #cloud-section img{
+    height:10px;
+}
+#wrapper #cloud-section a{
+    text-decoration:none;
+    color:#333;
+    padding:5px;
+}

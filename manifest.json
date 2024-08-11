@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Duplicate File Detector",
+    "version": "1.0",
+    "description": "Detects duplicate files on your cloud and local storage during downloads",
+    "permissions": ["storage", "scripting", "activeTab", "downloads","fileSystem"], 
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+    "default_popup": "popup.html"
+  }
+  }
+  
